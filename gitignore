@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+env/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Model weights — too large for GitHub
+# Upload to HuggingFace Hub instead (see README)
+models/
+checkpoints/
+
+# Generated output files
+hallucination_heatmap.png
+confusion_matrix.png
+training_curves.png
+mnli_distribution.png
+hallucination_results.csv
+
+# HuggingFace cache
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db

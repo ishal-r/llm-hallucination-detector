@@ -1,0 +1,29 @@
+# Versions pinned to match tested environment
+
+# Core ML
+torch>=2.0.0
+transformers==4.38.2
+datasets>=2.12.0
+accelerate>=0.20.0
+evaluate>=0.4.0
+sentence-transformers>=2.2.0
+
+# NLP utilities
+spacy>=3.5.0
+# After install, run: python -m spacy download en_core_web_sm
+
+# Data & visualisation
+pandas>=1.5.0
+numpy==1.26.4
+matplotlib>=3.6.0
+seaborn>=0.12.0
+scikit-learn>=1.2.0
+
+# Notebook
+notebook>=6.5.0
+ipywidgets>=8.0.0
+tqdm>=4.64.0
+
+# Server
+flask>=2.3.0
+flask-cors>=4.0.0
