@@ -1,0 +1,15 @@
+sentence_id,claim,label,confidence,top_evidence,sim_score,prob_supported,prob_contradicted,prob_unverifiable
+1,"The Amazon spans more than 5.5 million square kilometers, primarily in Brazil which holds
+about 60% of the forest.",SUPPORTED,0.999,"The Amazon rainforest covers over 5.5 million square kilometers across nine countries,
+with Brazil containing approximately 60% of the forest.",0.911,0.999,0.001,0.0
+2,It contains roughly 10% of Earth's species.,SUPPORTED,0.999,"It is home to an estimated 10%
+of all species on Earth.",0.856,0.999,0.001,0.0
+3,"Deforestation has
+accelerated, with 15,000 square kilometers cleared in 2020.",UNVERIFIABLE,1.0,"Scientists estimate that over 11,000 square kilometers were
+cleared in 2020.",0.602,0.0,1.0,0.0
+4,"The region is home to around
+2 million indigenous people from over 400 ethnic groups.",CONTRADICTED,1.0,"The indigenous population numbers approximately 1 million people
+from around 400 distinct ethnic groups.",0.88,0.0,0.0,1.0
+5,"The Amazon River contributes
+20% of global freshwater ocean discharge.",SUPPORTED,0.999,"The Amazon River releases about 20% of all
+fresh water that flows into the world's oceans.",0.837,0.999,0.001,0.0
